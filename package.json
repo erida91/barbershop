@@ -6,6 +6,8 @@
     "stylelint-config-htmlacademy": "^4.2.3"
   },
   "scripts": {
-    "lint:html": "linthtml source/*.html --config .linthtmlrc"
+    "lint:html": "linthtml source/*.html --config .linthtmlrc",
+    "lint:css": "stylelint '**/*.css' --fix"
+
   }
 }
