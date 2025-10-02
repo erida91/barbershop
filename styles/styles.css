@@ -1,8 +1,18 @@
 @font-face {
-  font-family: "PT Sans Narrow";
+  font-family: "PT Sans";
   src:
-    url("PTSans-NarrowBold.woff2") format("woff2"),
-    url("PTSans-NarrowBold.woff") format("woff");
+    url("PTSans-Regular.woff2") format("woff2"),
+    url("PTSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src:
+    url("PTSans-Bold.woff2") format("woff2"),
+    url("PTSans-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -16,4 +26,71 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  src:
+    url("PTSans-NarrowBold.woff2") format("woff2"),
+    url("PTSans-NarrowBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+
+  font-family: "PT Sans", sans-serif;
+
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #fbf7f4;
+
+}
+
+/* Pages */
+
+.page-header {
+  color: #ffffff;
+  background: #000000;
+}
+
+.navigation-link {
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-index {
+  color: #ffffff;
+  background-color: #000000;
+  background-image: url("../image/index-bg.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+/* List */
+.advantages-list {
+  text-align: center;
+}
+
+/* Title */
+.advantages-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+/* Index columns */
+.index-columns {
+  color: #242424;
+  background-color: #fbf7f4;
+  background-image: url("../image/bg-noisy.png");
 }
